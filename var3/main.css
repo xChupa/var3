@@ -1,0 +1,236 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #F5F5F5;
+}
+ul.bar{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: #FFFFFF;
+    
+}
+ul.bar li{
+    display: inline;
+
+}
+
+ul.lbar{
+    margin: 0;
+    padding: 0;
+    background: #D0CBF0;
+    overflow: hidden;
+    width: 56px;
+    height: 748px;
+}
+.ico2{
+    position: absolute;
+    left:85%;
+    top:1%;
+}
+.ico3{
+    position: absolute;
+    left: 91%;
+    top:2%;
+}
+.photo{
+    position: absolute;
+    left: 95%;
+    top: 1%;
+}
+.capital{
+    position: absolute;
+    width: 553px;
+    height: 40px;
+    left: 71px;
+    top: 8%;
+    
+    /* Headline 24 light */
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 36px;
+    /* or 150% */
+    
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.15px;
+    
+    /* 500 */
+    
+    color: #2A2D43;
+    
+}
+.manager{
+    position: absolute;
+    left: 58%;
+    top: 8%;
+
+    filter: drop-shadow(0px 0px 3px rgba(0, 0, 0, 0.25));
+    border-radius: 4px;
+    
+
+}
+.product{
+    position: absolute;
+    left: 70%;
+    top: 8%;
+    
+    filter: drop-shadow(0px 0px 3px rgba(0, 0, 0, 0.25));
+    border-radius: 4px;
+    
+
+}
+.date{
+    position: absolute;
+    left: 82%;
+    top: 8%;
+    
+    /* 100 */
+    
+    border: 1px solid #D0CBF0;
+    /* Xenia_shadow */
+    
+    filter: drop-shadow(0px 0px 3px rgba(0, 0, 0, 0.25));
+    border-radius: 4px;
+    
+
+}
+.download{
+    position: absolute;
+    left: 96%;
+    top: 8%;
+}
+.content {
+    top: 15%;
+    left: 5%;
+    width: 50%;
+    height: 60%;
+    background: #FFFFFF;
+    border-radius: 51px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 40px 73px 82px;
+    box-sizing: border-box;
+    position: absolute;
+}
+.stats1{
+    top: 15%;
+    left: 79%;
+    width: 20%;
+    height: 17%;
+    background: #FFFFFF;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 40px 73px 82px;
+    box-sizing: border-box;
+    position: absolute;
+}
+.stats1_text1{
+    position: absolute;
+    left: 5.53%;
+    right: 3.86%;
+    top: 7.52%;
+    bottom: 74.44%;
+    
+    /* NawDraw 14 reg */
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    /* or 143% */
+    
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.25px;
+    
+    /* 500 */
+    
+    color: #2A2D43;
+}
+.stats1_text2{
+    position: absolute;
+    left: 35.96%;
+    right: 5.72%;
+    top: 39.85%;
+    bottom: 40.6%;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    /* or 150% */
+    
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.5px;
+    
+    color: #2A2D43;
+}
+.stats1_text3{
+    position: absolute;
+    left: 35.96%;
+    right: 0%;
+    top: 58.65%;
+    bottom: 18.05%;
+    
+    /* Caption */
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    /* or 133% */
+    
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.4px;
+    
+    /* 300 */
+    
+    color: #6A6C7B;
+    
+}
+.procent{
+    position: absolute;
+    left: 20px;
+    top: 48px;
+}
+.stats2{
+    top: 33%;
+    left: 79%;
+    width: 20%;
+    height: 25%;
+    background: #FFFFFF;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 40px 73px 82px;
+    box-sizing: border-box;
+    position: absolute;
+}
+.stats3{
+    top: 59%;
+    left: 79%;
+    width: 20%;
+    height: 17%;
+    background: #FFFFFF;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 40px 73px 82px;
+    box-sizing: border-box;
+    position: absolute;
+}
